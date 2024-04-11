@@ -1,0 +1,22 @@
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: 7.2rem;
+  padding: 0 3.2rem;
+  background-color: var(--color-primary);
+  border-radius: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    grid-template-columns: 1fr;
+    height: 15rem;
+  }
+}

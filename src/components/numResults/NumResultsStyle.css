@@ -1,0 +1,20 @@
+.num-results {
+  justify-self: end;
+  font-size: 1.8rem;
+}
+
+@media screen and (max-width: 768px) {
+  .num-results {
+    grid-column: 1 / -1;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .num-results {
+    grid-column: 1;
+    width: 100%;
+  }
+}
